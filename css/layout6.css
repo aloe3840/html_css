@@ -1,0 +1,33 @@
+.all
+{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 40%;
+}
+
+.cat2
+{
+  border-radius: 50%; 
+  float: left; 
+  width: 100px; 
+  height: 100px; 
+  margin-right: 10px;
+}
+
+.cat3
+{
+  width:200px; 
+  height:250px; 
+  float: left;
+}
+
+.introduce
+{
+  float:left
+}
+
+.pro
+{
+  float: left; width: 300px;
+}

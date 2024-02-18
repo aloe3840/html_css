@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  background-color: beige;
+}
+
+div, input, textarea{
+  box-sizing: border-box;
+}
+
+.input-login{
+  border: 1px solid black;
+  width: 80%;
+  max-width: 800px;
+  min-width: 700px;
+  height: 500px;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+  
+}
+
+p{
+  border: 1px solid black;
+  width: 80px;
+  text-align: center;
+}
+
+.input-login input[type=text],[type=password],[type=date], textarea{
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.input-id,
+.input-password
+{
+  float: left;
+  margin: 10px;
+  padding-top: 40px;
+}
+
+.input-id{
+  margin-left: 140px;
+}
+
+.input-password{
+  margin-left: 140px;
+}
+
+.input-name,
+.input-birth{
+  float: left;
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.input-name p,
+.input-birth p{
+  float: left;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.introduce p{
+  margin-left: 43%;
+}
+
+.introduce textarea{
+  margin-left: 30%;
+  width: 300px;
+  height: 150px;
+}
+
+.input-id p,
+.input-password p
+{
+  margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+

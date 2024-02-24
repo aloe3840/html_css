@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반응형 예제</title>
+  <Style>
+    .test-responsive-web{
+      font-size: 30px;
+      background-color: lightgray;
+
+    }
+    @media screen and (max-width:1200px)
+    {
+      /* 화면이 1200px이하일 때 */
+    .test-responsive-web{
+      font-size: 24px;
+      background-color: pink;
+    }
+    }
+
+    @media screen and (max-width:768px)
+    {
+      /* 모바일 화면이 768px이하일 때 */
+      .test-responsive-web{
+        font-size: 16px;
+        background-color: green                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+      }
+    }
+
+  </Style>
+</head>
+<body>
+  <!--반응형: 웹 크기에 따라 ul가 바뀜-->
+  <div class="test-responsive-web">
+    <p>Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .img-box{
+      background-image: url(./고양이.jpg);
+      height: 40vh;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+
+    .flex-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @media screen and (max-width:768px){
+      .img-box{
+        width:100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <!--div백그라운드 이미지: 웹에서는 2개씩 모바일에서는 한 라인에 1개씩-->
+  <div class="flex-box">
+    <div class="img-box">
+    </div>
+    <div class="img-box">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .my-box{
+      width: 800px;
+      height: 200px;
+      border: 2px solid yellow;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .my-box div{
+      width: 100px;
+      background-color: pink;
+    }
+
+  </style>
+</head>
+<body>
+  <!--
+    display:flex;
+    flex-drection: row (기본값 row, 변경하려면 colum)
+    align-item: center (row면 세로정렬, colum이면 가로정렬)
+    justify-content: center(flex-direction 방향으로 정렬)
+    flex-wrap: wrap; (기본값은 크기를 초과해도 최대한 맞춤: 크기 초과하면 밑으로 떨어짐)
+    flex-grow 1; (차지하는 비율을 자식에게 할당, 안주면 0)
+  -->
+    <div class="my-box">
+      <div style="flex-grow: 1;">first</div>
+      <div>second</div>
+      <div>thirh</div>
+      <div>fourth</div>
+    </div>
+</body>
+</html>

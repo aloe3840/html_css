@@ -1,0 +1,59 @@
+body {
+  margin: 50px;
+}
+
+.all{
+  text-align: center;
+  width: 1500px;
+  margin: auto;
+}
+
+.cart{
+  padding-right: 850px;
+}
+
+.all-purchase{
+  padding-left: 250px;
+  margin-bottom: 200px;
+}
+
+.genaral-purchase {
+  float: left;
+  
+  width: 500px;
+  border-left: 1px solid blue;
+  border-top: 1px solid blue;
+  border-right: 1px solid blue;
+}
+
+.genaral-purchase h3{
+  
+}
+
+.regural-delivery {
+  float: left;
+  width: 500px;
+  border-bottom: 1px solid blue;
+  border-right: 1px solid blue;
+  border-top: 1px solid black;
+  background-color: lightgray;
+  
+}
+
+.login-ex{
+  float: left;
+  
+}
+
+.login{
+  float: left;
+}
+
+.option{
+  background-color: lightgray;
+  width: 900px;
+  height: 200px;
+  padding-top: 40px;
+  margin-left: 300px;
+}
+

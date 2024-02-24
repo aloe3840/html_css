@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>테이블</title>
+  <style>
+    body{
+      margin: 0;
+    }
+
+    .component-table{
+      background-color: bisque;
+      padding: 30px;
+      width: 600px;
+      margin: auto;
+    }
+
+    .component-table h3{
+      margin: 0;
+    }
+
+    .cart-table{
+      border-collapse: collapse;
+      text-align: center;
+      width: 100%;
+      border: 0.5px solid black;
+    }
+    
+    .cart-table img{
+      width: 80px;
+      height: 80px;
+    }
+
+    .cart-table td{
+      padding: 10px;
+      border-bottom: 0.5px solid black;
+    }
+
+    .final-price{
+      text-align: left;
+    }
+
+    .kind td{
+      border: 0.5px solid black;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="component-table">
+    <h3>장바구니</h3>
+    <table class="cart-table">
+      <tr class="kind">
+        <td>이미지</td>
+        <td>상품명</td>
+        <td>수량</td>
+        <td>가격</td>
+        <td>총가격</td>
+      </tr>
+      <tr>
+        <td><img src="고양이.jpg" alt=""></td>
+        <td>오이</td>
+        <td>1</td>
+        <td>4000</td>
+        <td>4000</td>
+      </tr>
+      <tr>
+        <td><img src="하늘.jpg" alt=""></td>
+        <td>참외</td>
+        <td>1</td>
+        <td>3000</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <td colspan="5" class="final-price">총 가격: 13000원</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

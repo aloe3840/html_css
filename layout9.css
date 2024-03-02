@@ -73,3 +73,56 @@ body{
   text-decoration: underline;
   color: green;
 }
+
+.section-one{
+  background-image: url(section1_background.PNG);
+  width: 100%;
+  height: 34vw;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text-img{
+  position: absolute;
+  left: 14.5%;
+  top: 20%;
+  width: 20%;
+}
+
+.detail-btn{
+  position: absolute;
+  left: 20%;
+  top: 65%;
+  width: 150px;
+  background: transparent; /*배경 투명하게*/
+  border-radius: 5px;
+  padding: 10px;
+  color: darkgreen;
+  transition: all 0.4s;
+}
+
+.detail-btn:hover{
+  text-decoration: underline;
+  background: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.milk{
+  position: absolute;
+  left: 38%;
+  top: 15%;
+}
+
+.tea{
+  position: absolute;
+  left: 48%;
+  top: 45%;
+}
+
+.espre{
+  position: absolute;
+  left: 61%;
+  top: 10%;
+}
